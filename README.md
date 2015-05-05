@@ -13,4 +13,4 @@ review the [guidelines for contributing](CONTRIBUTING.md).
 
 ## License
 
-[MIT License](./LICENSE) ₢ Randson Oliveira
+[MIT License](./LICENSE) © Randson Oliveira
