@@ -1,3 +1,3 @@
-# ekatah
+# Stretch
 
-The easiest way to connect Laravel in SQL Server
+:construction: A collection of LESS mixins and variables for writing better CSS
