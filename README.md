@@ -9,6 +9,10 @@ Three quick start options are available:
 * [Download latest release](https://github.com/randsonjs/stretch/releases)
 * Clone the repo: `git@github.com:randsonjs/stretch.git`
 * Install with [Bower](http://bower.io): `bower install stretch`
+* 
+## History
+
+Check [releases](https://github.com/randsonjs/stretch/releases) for detailed changelog.
 
 ## Contributing
 
