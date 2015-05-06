@@ -2,6 +2,14 @@
 
 :construction: A collection of LESS variables, mixins and functions for writing better CSS
 
+## Getting Started
+
+Three quick start options are available:
+
+* [Download latest release](https://github.com/randsonjs/stretch/releases)
+* Clone the repo: `git@github.com:randsonjs/stretch.git`
+* Install with [Bower](http://bower.io): `bower install stretch`
+
 ## Contributing
 
 Anyone and everyone is welcome to contribute. Please take a moment to
