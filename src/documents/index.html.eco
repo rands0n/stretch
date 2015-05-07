@@ -14,6 +14,13 @@ layout: default
     If you want a set of components like, modals, buttons, popover, tooltips... We highly recommend you to go on <a href="http://getbootstrap.com">Twitter Bootstrap's</a>, <a href="http://foundation.zurb.com/">Foundation's</a>, <a href="http://semantic-ui.com/">Semantic's</a> sites.
 </p>
 
+<pre class="code-install nohighlight"><code class="nohighlight">bower install stretch</code></pre>
+
+<p class="gh-btns">
+    <iframe src="./github-btn.html?user=randsonjs&amp;repo=stretch&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="145" height="30"></iframe>
+    <iframe src="./github-btn.html?user=randsonjs&amp;repo=stretch&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="135" height="30"></iframe>
+</p>
+
 <div id="introduction">
     <section>
         <h2 class="default-section-title">Before you start: getting the project</h2>

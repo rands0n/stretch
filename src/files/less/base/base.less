@@ -1,3 +1,17 @@
+::selection {
+    background-color: #A55EFF;
+    color: #EEE;
+}
+
+::-moz-selection {
+    background-color: #A55EFF;
+    color: #EEE;
+}
+
+sup a {
+    background: 0;
+}
+
 a {
     text-decoration: none;
 
@@ -7,4 +21,27 @@ a {
     &:hover {
         border-color: #CCCCCC;
     }
+}
+
+pre,
+code {
+    font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    background: rgb(250, 250, 250);
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+code {
+    font-family: monospace,serif;
+    _font-family: 'courier new',monospace;
+    font-size: 1em;
 }

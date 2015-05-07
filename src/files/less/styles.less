@@ -1,8 +1,24 @@
+@import "base/normalize.less";
+
 body {
     color: #777777;
 
     font-family: 'Helvetica Light', Arial, sans-serif;
     font-weight: 300;
+
+    @import "vendor/highlightjs.less";
+
+    .code-install {
+        text-align: center;
+        width: 255px;
+        margin: 45px auto 10px;
+        display: block;
+    }
+
+    .gh-btns {
+        width: 285px;
+        margin: 0px auto;
+    }
 
     @import "base/base.less";
 
