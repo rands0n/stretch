@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<p>
+    <strong>stretch</strong> is a comprehensive and flexible collection of LESS utilities. If you want a set of mixins, functions and variable for your application or website stretch is perfect for you.
+</p>
+
+<p>
+    <strong>stretch</strong> is based on <a href="http://getbootstrap.com">Twitter Bootstrap's</a>, <a href="http://foundation.zurb.com/">Foundation's</a>, <a href="http://semantic-ui.com/">Semantic's</a> mixins of these frameworks. If you want contribute to this project please take some minutes of your time and read the <a href="https://github.com/randsonjs/stretch/blob/master/CONTRIBUTING.md">guidelines for contributing</a>.
+</p>
+
+<p>
+    If you want a set of components like, modals, buttons, popover, tooltips... We highly recommend you to go on <a href="http://getbootstrap.com">Twitter Bootstrap's</a>, <a href="http://foundation.zurb.com/">Foundation's</a>, <a href="http://semantic-ui.com/">Semantic's</a> sites.
+</p>
+
+<div id="introduction">
+    <section>
+        <h2 class="default-section-title">Before you start: getting the project</h2>
+    </section>
+
+    <p>
+        To get started, <a href="https://github.com/randsonjs/stretch/archive/master.zip">download the project</a>. This project includes all of the stretch examples, source code dependencies you'll need to get started.
+    </p>
+
+    <p>
+        Unzip the project somewhere on your local drive. The package includes an initial version of the project you'll be working with.
+    </p>
+</div>
+
+<div id="variables">
+    <section>
+        <h2 class="default-section-title">Variables</h2>
+    </section>
+
+    <%- @include('variables/color') %>
+    <%- @include('variables/links') %>
+</div>
+
+<div id="mixins">
+    <section>
+        <h2 class="default-section-title">Mixins</h2>
+    </section>
+</div>
+
+<div id="functions">
+    <section>
+        <h2 class="default-section-title">Functions</h2>
+    </section>
+</div>
+
+<div id="add-ons">
+    <section>
+        <h2 class="default-section-title">Add-Ons</h2>
+    </section>
+</div>

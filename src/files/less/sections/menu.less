@@ -1,0 +1,122 @@
+#menu {
+    margin-left: -185px;
+    width: 185px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: #191818;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+    a {
+        color: #999999;
+        border: none;
+        padding: 0.6em 0 0.6em 0.6em;
+    }
+
+    .pure-menu {
+        border: none;
+        background: transparent;
+
+        ul {
+            border: none;
+            border-top: 1px solid #333333;
+            background: transparent;
+            list-style: none;
+            position: relative;
+            margin: 0;
+            padding: 0;
+
+            li {
+                position: relative;
+                display: block;
+
+                &.main-item {
+                    font-weight: 400;
+                    padding: 5px 10px;
+                    font-family: Helvetica, Arial, sans-serif;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+
+                &.active {
+                    background-color: #2E2F33;
+
+                    a {
+                        color: #FFFFFF;
+                        border-color: #A55EFF;
+                    }
+                }
+
+                a {
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-weight: 300;
+                    padding-left: 25px;
+                    transition: all .2s linear;
+                    color: #949599;
+                    border-left: 3px solid transparent;
+                    text-decoration: none;
+
+                    display: block;
+
+                    &:hover,
+                    &:focus {
+                        background: #333333;
+                    }
+                }
+            }
+        }
+
+        .menu-item-divided {
+            border-top: 1px solid #333333;
+        }
+    }
+
+    .pure-menu-selected,
+    .pure-menu-heading {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 23px;
+        margin: 0;
+        padding: 15px 0;
+        transition: all .2s linear;
+        text-align: center;
+        text-transform: lowercase;
+        color: #FFFFFF;
+
+        background: #A55EFF;
+    }
+
+    .pure-menu-selected {
+
+        a {
+            color: #FFFFFF;
+        }
+    }
+
+    .pure-menu-heading {
+        display: block;
+        text-decoration: none;
+        white-space: nowrap;
+
+        a {
+            font-size: 110%;
+            color: #FFFFFF;
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 48em) {
+    #menu {
+        left: 185px;
+    }
+}
