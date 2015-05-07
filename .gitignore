@@ -29,3 +29,6 @@ node_modules
 # Windows Files
 Thumbs.db
 *.db
+
+# DocPad out folder
+out
