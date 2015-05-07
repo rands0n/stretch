@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "dependencies": {
+    "docpad": "~6.69.2",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ghpages": "~2.4.3",
+    "docpad-plugin-grunt": "~2.1.1",
+    "docpad-plugin-highlightjs": "~2.3.0",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-moment": "~2.0.2",
+    "docpad-plugin-partials": "~2.9.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-less": "^1.0.0",
+    "jit-grunt": "^0.9.1",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "build": "docpad generate --env static",
+    "deploy": "docpad deploy-ghpages --env static",
+    "test": "docpad generate --silent",
+    "watch": "docpad run --silent"
+  }
+}
