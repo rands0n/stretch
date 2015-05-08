@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 
-    <title>Stretch &mdash; A collection of LESS variables, mixins and functions for writing better CSS</title>
+    <title>Stretch &mdash; A collection of LESS variables, mixins and functions</title>
 
     <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Randson Oliveira">
-    <meta name="description" content="A collection of LESS variables, mixins and functions for writing better CSS">
+    <meta name="description" content="A collection of LESS variables, mixins and functions">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/styles.css">
@@ -29,6 +29,6 @@
         <div id="main">
             <header class="header">
                 <h1>stretch</h1>
-                <h2>A collection of LESS variables, mixins and functions for writing better CSS</h2>
+                <h2>A collection of LESS variables, mixins and functions</h2>
             </header>
             <div class="content">

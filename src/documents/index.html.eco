@@ -60,4 +60,7 @@ layout: default
     <section>
         <h2 class="default-section-title">Add-Ons</h2>
     </section>
+
+    <%- @include('add-ons/border-radius') %>
+    <%- @include('add-ons/clearfix') %>
 </div>
