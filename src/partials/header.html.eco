@@ -12,7 +12,7 @@
     <meta name="description" content="A collection of LESS variables, mixins and functions">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- Fonts -->
     <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Ubuntu" rel="stylesheet" type="text/css">
