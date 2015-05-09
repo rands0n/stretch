@@ -32,3 +32,6 @@ Thumbs.db
 
 # DocPad out folder
 out
+
+# Bower Folder
+src/files/vendor
