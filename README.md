@@ -1,6 +1,6 @@
 # Stretch
 
-:construction: A collection of LESS variables, mixins and functions for writing better CSS
+:construction: A collection of LESS variables, mixins and functions
 
 ## Getting Started
 
