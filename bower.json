@@ -6,7 +6,7 @@
     "Randson Oliveira <randsonjs@gmail.com>"
   ],
   "description": "A collection of LESS variables, mixins and functions",
-  "main": "less/stretch.less",
+  "main": "src/less/stretch.less",
   "keywords": [
     "stretch",
     "css",
