@@ -29,3 +29,6 @@ node_modules
 # Windows Files
 Thumbs.db
 *.db
+
+# Bower Files
+bower_components
