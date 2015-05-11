@@ -33,12 +33,24 @@ layout: default
     <p>
         Unzip the project somewhere on your local drive. The package includes an initial version of the project you'll be working with.
     </p>
+
+    <p>
+        After this, you can create a folder called <code>myProject</code> and import <code>stretch.less</code> main file. After imported file, all of stretch mixins, variables and functions are imported.
+    </p>
+
+    <p>
+        I don't know how your organization for less files. But assuming you have a folder called <code>less</code> and it has a main file import others. You can import main stretch file that is locate in <code>src/less/stretch.less</code>. It import the other mixins files, functions and variables :)
+    </p>
 </div>
 
 <div id="variables">
     <section>
         <h2 class="default-section-title">Variables</h2>
     </section>
+
+    <p>
+        Variables still don't exist in CSS, but they do in LESS and other CSS preprocessors. Stretch includes a several groups of meaningful and useful variables for any project.
+    </p>
 
     <%- @include('variables/color') %>
     <%- @include('variables/links') %>

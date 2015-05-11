@@ -1,3 +1,49 @@
 <div id="color">
-    <h2>Color</h2>
+    <h2>Light/Black Colors</h2>
+
+    <ul>
+        <li class="black-10"></li>
+        <li class="black-20"></li>
+        <li class="black-30"></li>
+        <li class="black-40"></li>
+        <li class="black-50"></li>
+        <li class="black-60"></li>
+        <li class="black-70"></li>
+        <li class="black-80"></li>
+        <li class="black-90"></li>
+    </ul>
+
+        <pre class="hljs html">
+        <code>
+@color-10: darken(#FFFFFF, 10%);
+@color-20: darken(#FFFFFF, 20%);
+@color-30: darken(#FFFFFF, 30%);
+@color-40: darken(#FFFFFF, 40%);
+@color-50: darken(#FFFFFF, 50%);
+@color-60: darken(#FFFFFF, 60%);
+@color-70: darken(#FFFFFF, 70%);
+@color-80: darken(#FFFFFF, 80%);
+@color-90: darken(#FFFFFF, 90%);
+        </code>
+    </pre>
+
+    <h2>Brand Colors</h2>
+
+    <ul>
+        <li class="brand-primary"></li>
+        <li class="brand-success"></li>
+        <li class="brand-warning"></li>
+        <li class="brand-danger"></li>
+        <li class="brand-info"></li>
+    </ul>
+
+    <pre class="hljs html">
+        <code>
+@brand-primary: #3B83C0;
+@brand-success: #5BBD72;
+@brand-warning: #E07B53;
+@brand-danger:  #D95C5C;
+@brand-info:    #00B5AD;
+        </code>
+    </pre>
 </div>
