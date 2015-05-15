@@ -1,6 +1,6 @@
 # Stretch
 
-:construction: A collection of LESS variables, mixins and functions
+A collection of LESS variables, mixins and functions
 
 ## Getting Started
 
