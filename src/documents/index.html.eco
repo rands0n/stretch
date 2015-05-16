@@ -21,6 +21,13 @@ layout: default
     <iframe src="./github-btn.html?user=randsonjs&amp;repo=stretch&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="135" height="30"></iframe>
 </p>
 
+<p class="download-button">
+    <a href="https://github.com/randsonjs/stretch/archive/master.zip" class="pure-button">
+        <img class="btn-download-icon" src="/images/download.svg" width="20" height="" "20"="" alt="Download Icon">
+        Download Stretch
+    </a>
+</p>
+
 <div id="introduction">
     <section>
         <h2 class="default-section-title">Before you start: getting the project</h2>

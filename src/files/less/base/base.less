@@ -1,10 +1,10 @@
 ::selection {
-    background-color: #A55EFF;
+    background-color: @background-color;
     color: #EEE;
 }
 
 ::-moz-selection {
-    background-color: #A55EFF;
+    background-color: @background-color;
     color: #EEE;
 }
 
@@ -15,8 +15,8 @@ sup a {
 a {
     text-decoration: none;
 
-    color: #A55EFF;
-    border-bottom: 1px dotted #A55EFF;
+    color: @background-color;
+    border-bottom: 1px dotted @background-color;
 
     &:hover {
         border-color: #CCCCCC;
