@@ -71,6 +71,7 @@ layout: default
     <%- @include('mixins/box-sizing') %>
     <%- @include('mixins/opacity') %>
     <%- @include('mixins/resizable') %>
+    <%- @include('mixins/size') %>
 </div>
 
 <div id="functions">
