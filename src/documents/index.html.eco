@@ -23,7 +23,7 @@ layout: default
 
 <p class="download-button">
     <a href="https://github.com/randsonjs/stretch/archive/master.zip" class="pure-button">
-        <img class="btn-download-icon" src="/images/download.svg" width="20" height="" "20"="" alt="Download Icon">
+        <img class="btn-download-icon" src="images/download.svg" width="20" height="" "20"="" alt="Download Icon">
         Download Stretch
     </a>
 </p>
