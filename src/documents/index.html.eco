@@ -61,6 +61,7 @@ layout: default
 
     <%- @include('variables/color') %>
     <%- @include('variables/links') %>
+    <%- @include('variables/typography') %>
 </div>
 
 <div id="mixins">
