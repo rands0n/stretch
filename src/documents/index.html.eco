@@ -60,7 +60,6 @@ layout: default
     </p>
 
     <%- @include('variables/color') %>
-    <%- @include('variables/links') %>
     <%- @include('variables/typography') %>
 </div>
 

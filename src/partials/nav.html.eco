@@ -12,7 +12,6 @@
             <li class="main-item">Variables</li>
 
             <li class="pure-menu-item"><a href="#color">Color</a></li>
-            <li class="pure-menu-item"><a href="#links">Links</a></li>
             <li class="pure-menu-item"><a href="#typography">Typography</a></li>
 
             <li class="main-item">Mixins</li>
