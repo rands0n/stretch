@@ -70,6 +70,7 @@ layout: default
 
     <%- @include('mixins/box-sizing') %>
     <%- @include('mixins/opacity') %>
+    <%- @include('mixins/resizable') %>
 </div>
 
 <div id="functions">
