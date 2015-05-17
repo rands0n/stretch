@@ -67,6 +67,8 @@ layout: default
     <section>
         <h2 class="default-section-title">Mixins</h2>
     </section>
+
+    <%- @include('mixins/box-sizing') %>
 </div>
 
 <div id="functions">
