@@ -1,0 +1,3 @@
+.em(@selector, @amt, @default-px: 16) when (ispixel(@amt)) {
+    @{selector}: unit((@amt / @default-px), em);
+}
