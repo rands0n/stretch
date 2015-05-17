@@ -32,3 +32,5 @@ Thumbs.db
 
 # Bower Files
 bower_components
+src/files/vendor
+out/
