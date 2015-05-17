@@ -16,6 +16,12 @@
 
     <!-- Fonts -->
     <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Ubuntu" rel="stylesheet" type="text/css">
+
+    <!-- Web Components Polyfill -->
+    <scripts src="vendor/webcomponentsjs/webcomponents.min.js"></scripts>
+
+    <!-- Web Components -->
+    <link rel="import" href="vendor/made-with-love/made-with-love.html">
 </head>
 <body>
 

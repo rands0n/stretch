@@ -80,6 +80,8 @@ layout: default
     <section>
         <h2 class="default-section-title">Functions</h2>
     </section>
+
+    <%- @include('functions/px-to-em') %>
 </div>
 
 <div id="add-ons">
@@ -89,4 +91,8 @@ layout: default
 
     <%- @include('add-ons/border-radius') %>
     <%- @include('add-ons/clearfix') %>
+</div>
+
+<div id="made-with-love" style="text-align: center">
+    <made-with-love name="Randson Oliveira" url="http://randsonjs.com"></made-with-love>
 </div>
