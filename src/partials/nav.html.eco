@@ -16,18 +16,13 @@
 
             <li class="main-item">Mixins</li>
 
-            <li class="pure-menu-item"><a href="#animation">Animation</a></li>
-            <li class="pure-menu-item"><a href="#appearance">Appearance</a></li>
-            <li class="pure-menu-item"><a href="#background">Background</a></li>
-            <li class="pure-menu-item"><a href="#columns">Columns</a></li>
-            <li class="pure-menu-item"><a href="#filter">Filter</a></li>
-            <li class="pure-menu-item"><a href="#flexbox">Flexbox</a></li>
-            <li class="pure-menu-item"><a href="#gradient">Gradient</a></li>
+            <li class="pure-menu-item"><a href="#box-sizing">Box Sizing</a></li>
             <li class="pure-menu-item"><a href="#opacity">Opacity</a></li>
-            <li class="pure-menu-item"><a href="#placeholder">Placeholder</a></li>
-            <li class="pure-menu-item"><a href="#text-decoration">Text Decoration</a></li>
-            <li class="pure-menu-item"><a href="#transition">Transition</a></li>
+            <li class="pure-menu-item"><a href="#resizable">Resizable</a></li>
+            <li class="pure-menu-item"><a href="#size">Size</a></li>
             <li class="pure-menu-item"><a href="#transform">Transform</a></li>
+            <li class="pure-menu-item"><a href="#transition">Transition</a></li>
+            <li class="pure-menu-item"><a href="#user-select">Use Select</a></li>
 
             <li class="main-item">Functions</li>
 
