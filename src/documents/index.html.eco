@@ -69,6 +69,7 @@ layout: default
     </section>
 
     <%- @include('mixins/box-sizing') %>
+    <%- @include('mixins/opacity') %>
 </div>
 
 <div id="functions">
