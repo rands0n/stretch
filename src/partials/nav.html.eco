@@ -22,7 +22,6 @@
             <li class="pure-menu-item"><a href="#size">Size</a></li>
             <li class="pure-menu-item"><a href="#transform">Transform</a></li>
             <li class="pure-menu-item"><a href="#transition">Transition</a></li>
-            <li class="pure-menu-item"><a href="#user-select">Use Select</a></li>
 
             <li class="main-item">Functions</li>
 
