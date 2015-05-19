@@ -1,3 +1,13 @@
+# [0.3.0](https://github.com/randsonjs/stretch/releases/tag/0.3.0)
+
+## [Functions](https://github.com/randsonjs/stretch/tree/master/src/less/functions)
+
+- [`px-to-em.less`](https://github.com/randsonjs/stretch/blob/master/src/less/functions/px-to-em.less)
+
+## [Mixins](https://github.com/randsonjs/stretch/tree/master/src/less/mixins)
+
+- [`resizable.less`](https://github.com/randsonjs/stretch/blob/master/src/less/mixins/resizable.less)
+
 # [0.2.1](https://github.com/randsonjs/stretch/releases/tag/0.2.1)
 
 Remove unncessary comments
