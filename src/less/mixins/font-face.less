@@ -1,0 +1,13 @@
+.font-face(@font-font-name, @font-path, @weight: false, @weight-value: false, @style: false, @style-value: false) {
+    @font-face {
+        font-family: @font-name;
+        src: local(@font-name),
+            url("@{font-path}@{font-name}.woff2") format('woff2'),
+            url("@{font-path}@{font-name}.woff") format('woff'),
+            url("@{font-path}@{font-name}.ttf") format('truetype'),
+            url("@{font-path}@{font-name}.eot") format('eot');
+
+        .if(@weight, font-weight, @weight-value);
+        .if(@style, font-style, @style-value);
+    }
+}
