@@ -1,3 +1,13 @@
+# [0.4.0](https://github.com/randsonjs/stretch/releases/tag/0.4.0)
+
+## [Helpers](https://github.com/randsonjs/stretch/tree/master/src/less/helpers)
+
+- [`if`](https://github.com/randsonjs/stretch/blob/master/src/less/helpers/if.less)
+
+## [Mixins](https://github.com/randsonjs/stretch/tree/master/src/less/mixins)
+
+- [`font-face.less`](https://github.com/randsonjs/stretch/blob/master/src/less/mixins/font-face.less)
+
 # [0.3.0](https://github.com/randsonjs/stretch/releases/tag/0.3.0)
 
 ## [Functions](https://github.com/randsonjs/stretch/tree/master/src/less/functions)
