@@ -1,0 +1,13 @@
+.selection(@background-color, @color) {
+    &::-moz-selection {
+        background-color: @background-color;
+        color: @color;
+        text-shadow: none;
+    }
+
+    &::selection {
+        background-color: @background-color;
+        color: @color;
+        text-shadow: none;
+    }
+}
