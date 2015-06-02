@@ -5,5 +5,14 @@
 
     <!-- Javascript -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="http://cdn.alloyui.com/3.0.0pr2/aui/aui-min.js"></script>
+    <script>
+        YUI().use('aui-scrollspy', function(Y) {
+            new Y.Scrollspy({
+                activeClass: 'active',
+                target: '#menu'
+            });
+        });
+    </script>
 </body>
 </html>

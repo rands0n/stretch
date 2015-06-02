@@ -5,8 +5,8 @@
         <ul class="pure-menu-list">
             <li class="main-item">Docs</li>
 
-            <li class="pure-menu-item active">
-                <a href="#">Introduction</a>
+            <li class="pure-menu-item">
+                <a href="#introduction">Introduction</a>
             </li>
 
             <li class="main-item">Variables</li>
@@ -26,7 +26,6 @@
             <li class="main-item">Functions</li>
 
             <li class="pure-menu-item"><a href="#px-to-em">Pixel to Ems</a></li>
-            <li class="pure-menu-item"><a href="#px-to-rem">Pixel to Rems</a></li>
 
             <li class="main-item">Add-Ons</li>
 

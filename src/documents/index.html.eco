@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p>
+<p id="introduction">
     <strong>stretch</strong> is a comprehensive and flexible collection of LESS utilities. If you want a set of mixins, functions and variable for your application or website stretch is perfect for you.
 </p>
 
@@ -28,7 +28,7 @@ layout: default
     </a>
 </p>
 
-<div id="introduction">
+<div>
     <section>
         <h2 class="default-section-title">Before you start: getting the project</h2>
     </section>
