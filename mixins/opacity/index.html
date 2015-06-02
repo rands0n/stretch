@@ -1,0 +1,8 @@
+<h2 id="opacity">Opacity</h2>
+<p>Set the opacity for all browsers and provide a <code>filter</code> fallback for IE8.</p>
+<pre class="highlight"><code class="hljs undefined">.opacity(@opacity) {
+    opacity: @opacity;
+    @opacity-ie: @opacity * 100;
+    filter: ~"alpha(opacity=@{opacity-ie})"; // IE8
+}
+</code></pre>

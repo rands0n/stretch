@@ -1,0 +1,29 @@
+<h2 id="transform">Transform</h2>
+<p>Rorate, scale, translate (move), or skew any object.</p>
+<h4 id="rotate">Rotate</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.rotate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">degrees)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">rotate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">degrees));</span>
+}
+</span></code></pre>
+<h4 id="scale">Scale</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.scale</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">ratio)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">scale</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">ratio));</span>
+}
+</span></code></pre>
+<h4 id="translate">Translate</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.translate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">translate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y))</span>;
+}
+</code></pre>
+<h4 id="skew">Skew</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.skew</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">skewX</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x)</span> <span class="hljs-function">skewY</span>(@y))</span>;
+
+    <span class="hljs-tag">-webkit-backface-visibility</span>: <span class="hljs-tag">hidden</span>;
+}
+</code></pre>
+<h4 id="translate3d">Translate3D</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.translate3d</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y, @z) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">translate3d</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y, @z))</span>;
+}
+</code></pre>

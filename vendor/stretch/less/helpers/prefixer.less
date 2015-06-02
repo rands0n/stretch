@@ -1,0 +1,7 @@
+.prefixer(@prop, @val) {
+    -webkit-@{prop}: @val; // Chrome, Safari, Opera
+    -moz-@{prop}:    @val;
+    -ms-@{prop}:     @val; // IE 9
+    -o-@{prop}:      @val;
+    @{prop}:         @val;
+}

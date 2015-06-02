@@ -1,0 +1,14 @@
+<h2 id="clearfix">Clearfix</h2>
+<p>Forget adding <code>class=&quot;clearfix&quot;</code> to any element and instead add the <code>.clearfix()</code> mixin where appropriate. Also use <a href="http://nicolasgallagher.com/micro-clearfix-hack/">this clearfix</a> from <a href="http://twitter.com/necolas">Nicolas Gallager</a>.</p>
+<pre class="highlight"><code class="hljs undefined">.clearfix() {
+    &amp;:before,
+    &amp;:after {
+        content: " ";
+        display: table;
+    }
+
+    &amp;:after {
+        clear: both;
+    }
+}
+</code></pre>

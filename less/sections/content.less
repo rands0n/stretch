@@ -1,0 +1,42 @@
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 720px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 50px 0 20px 0;
+        font-weight: 300;
+        color: #333333;
+    }
+
+    section {
+        margin: 0;
+        padding: 2.5em 2em 0;
+        color: #333;
+        border-bottom: 1px solid #eee;
+
+        h2 {
+            text-align: center;
+
+            &.default-section-title {
+                font-family: 'Roboto Slab', serif;
+                font-weight: 300;
+                margin-top: 0px;
+                padding: 0px;
+                color: #CCC;
+                font-size: 1.5em;
+                margin: 0.83em 0px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}

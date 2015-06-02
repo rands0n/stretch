@@ -1,0 +1,21 @@
+.rotate(@degrees) {
+    .prefixer(transform, rotate(@degrees));
+}
+
+.scale(@ratio) {
+    .prefixer(transform, scale(@ratio));
+}
+
+.translate(@x, @y) {
+    .prefixer(transform, translate(@x, @y));
+}
+
+.skew(@x, @y) {
+    .prefixer(transform, skewX(@x) skewY(@y));
+
+    -webkit-backface-visibility: hidden;
+}
+
+.translate3d(@x, @y, @z) {
+    .prefixer(transform, translate3d(@x, @y, @z));
+}

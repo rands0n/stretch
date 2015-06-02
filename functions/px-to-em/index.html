@@ -1,0 +1,18 @@
+<h2 id="px-to-em">px to em</h2>
+<p>This is not a function, it remains a mixin. But convert <code>px</code> to <code>em</code> :)</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.em</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">selector,</span> @amt, @default-px: <span class="hljs-number">16</span>) when (<span class="hljs-function">ispixel</span>(@amt)) </span>{
+    <span class="hljs-at_rule">@<span class="hljs-keyword">{selector}:</span> <span class="hljs-function">unit</span>((@amt / @default-px), em)</span>;
+}
+</code></pre>
+<p>Use it is so easy:</p>
+<pre class="highlight"><code class="hljs undefined">div {
+    .em(font-size, 16px); // 1em
+    .em(max-width, 18px); // 1.125em
+}
+</code></pre>
+<p>Output:</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-tag">div</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">1em</span></span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">max-width</span>:<span class="hljs-value"> <span class="hljs-number">1.125em</span></span></span>;
+<span class="hljs-rule">}</span></span>
+</code></pre>

@@ -1,0 +1,35 @@
+{
+  "name": "stretch",
+  "version": "0.2.1",
+  "homepage": "https://github.com/randsonjs/stretch",
+  "authors": [
+    "Randson Oliveira <randsonjs@gmail.com>"
+  ],
+  "description": "A collection of LESS variables, mixins and functions",
+  "main": "less/stretch.less",
+  "keywords": [
+    "stretch",
+    "css",
+    "less",
+    "mixins",
+    "variables",
+    "functions"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.1",
+    "commit": "573bad68b1064dbd593b55d2e7dd854dd703839f"
+  },
+  "_source": "git://github.com/randsonjs/stretch.git",
+  "_target": "~0.2.0",
+  "_originalSource": "stretch"
+}

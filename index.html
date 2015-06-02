@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Stretch &mdash; A collection of LESS variables, mixins and functions</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Randson Oliveira">
+    <meta name="description" content="A collection of LESS variables, mixins, functions and helpers">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Ubuntu" rel="stylesheet" type="text/css">
+
+    <!-- Web Components Polyfill -->
+    <scripts src="vendor/webcomponentsjs/webcomponents.min.js"></scripts>
+
+    <!-- Web Components -->
+    <link rel="import" href="vendor/made-with-love/made-with-love.html">
+</head>
+<body>
+
+    <div id="layout">
+        <a href="#menu" id="menuLink" class="menu-link">
+            <span></span>
+        </a>
+
+        <div id="menu">
+    <div class="pure-menu">
+        <a class="pure-menu-heading" href="http://randsonjs.github.io/stretch">stretch</a>
+
+        <ul class="pure-menu-list">
+            <li class="main-item">Docs</li>
+
+            <li class="pure-menu-item">
+                <a href="#introduction">Introduction</a>
+            </li>
+
+            <li class="main-item">Variables</li>
+
+            <li class="pure-menu-item"><a href="#color">Color</a></li>
+            <li class="pure-menu-item"><a href="#typography">Typography</a></li>
+
+            <li class="main-item">Mixins</li>
+
+            <li class="pure-menu-item"><a href="#box-sizing">Box Sizing</a></li>
+            <li class="pure-menu-item"><a href="#opacity">Opacity</a></li>
+            <li class="pure-menu-item"><a href="#resizable">Resizable</a></li>
+            <li class="pure-menu-item"><a href="#size">Size</a></li>
+            <li class="pure-menu-item"><a href="#transform">Transform</a></li>
+            <li class="pure-menu-item"><a href="#transition">Transition</a></li>
+
+            <li class="main-item">Functions</li>
+
+            <li class="pure-menu-item"><a href="#px-to-em">Pixel to Ems</a></li>
+
+            <li class="main-item">Add-Ons</li>
+
+            <li class="pure-menu-item"><a href="#border-radius">Border Radius</a></li>
+            <li class="pure-menu-item"><a href="#clearfix">Clearfix</a></li>
+        </ul>
+    </div>
+</div>
+
+
+        <div id="main">
+            <header class="header">
+                <h1>stretch</h1>
+                <h2>A collection of LESS variables, mixins, functions and helpers</h2>
+            </header>
+            <div class="content">
+
+
+<p id="introduction">
+    <strong>stretch</strong> is a comprehensive and flexible collection of LESS utilities. If you want a set of mixins, functions and variable for your application or website stretch is perfect for you.
+</p>
+
+<p>
+    <strong>stretch</strong> is based on <a href="http://getbootstrap.com">Twitter Bootstrap's</a>, <a href="http://foundation.zurb.com/">Foundation's</a>, <a href="http://semantic-ui.com/">Semantic's</a> mixins of these frameworks. If you want contribute to this project please take some minutes of your time and read the <a href="https://github.com/randsonjs/stretch/blob/master/CONTRIBUTING.md">guidelines for contributing</a>.
+</p>
+
+<p>
+    If you want a set of components like, modals, buttons, popover, tooltips... We highly recommend you to go on <a href="http://getbootstrap.com">Twitter Bootstrap's</a>, <a href="http://foundation.zurb.com/">Foundation's</a>, <a href="http://semantic-ui.com/">Semantic's</a> sites.
+</p>
+
+<pre class="code-install nohighlight"><code class="nohighlight">bower install stretch</code></pre>
+
+<p class="gh-btns">
+    <iframe src="./github-btn.html?user=randsonjs&amp;repo=stretch&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="145" height="30"></iframe>
+    <iframe src="./github-btn.html?user=randsonjs&amp;repo=stretch&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="135" height="30"></iframe>
+</p>
+
+<p class="download-button">
+    <a href="https://github.com/randsonjs/stretch/archive/master.zip" class="pure-button">
+        <img class="btn-download-icon" src="images/download.svg" width="20" height="" "20"="" alt="Download Icon">
+        Download Stretch
+    </a>
+</p>
+
+<div>
+    <section>
+        <h2 class="default-section-title">Before you start: getting the project</h2>
+    </section>
+
+    <p>
+        To get started, <a href="https://github.com/randsonjs/stretch/archive/master.zip">download the project</a>. This project includes all of the stretch examples, source code dependencies you'll need to get started.
+    </p>
+
+    <p>
+        Unzip the project somewhere on your local drive. The package includes an initial version of the project you'll be working with.
+    </p>
+
+    <p>
+        After this, you can create a folder called <code>myProject</code> and import <code>stretch.less</code> main file. After imported file, all of stretch mixins, variables and functions are imported.
+    </p>
+
+    <p>
+        I don't know how your organization for less files. But assuming you have a folder called <code>less</code> and it has a main file import others. You can import main stretch file that is locate in <code>src/less/stretch.less</code>. It import the other mixins files, functions and variables :)
+    </p>
+</div>
+
+<div id="variables">
+    <section>
+        <h2 class="default-section-title">Variables</h2>
+    </section>
+
+    <p>
+        Variables still don't exist in CSS, but they do in LESS and other CSS preprocessors. Stretch includes a several groups of meaningful and useful variables for any project.
+    </p>
+
+    <div id="color">
+    <h2>Light/Black Colors</h2>
+
+    <ul>
+        <li class="black-10"></li>
+        <li class="black-20"></li>
+        <li class="black-30"></li>
+        <li class="black-40"></li>
+        <li class="black-50"></li>
+        <li class="black-60"></li>
+        <li class="black-70"></li>
+        <li class="black-80"></li>
+        <li class="black-90"></li>
+    </ul>
+
+        
+        <pre class="highlight"><code class="hljs less">
+<span class="hljs-variable">@color-10:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">10%</span>);
+<span class="hljs-variable">@color-20:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">20%</span>);
+<span class="hljs-variable">@color-30:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">30%</span>);
+<span class="hljs-variable">@color-40:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">40%</span>);
+<span class="hljs-variable">@color-50:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">50%</span>);
+<span class="hljs-variable">@color-60:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">60%</span>);
+<span class="hljs-variable">@color-70:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">70%</span>);
+<span class="hljs-variable">@color-80:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">80%</span>);
+<span class="hljs-variable">@color-90:</span> <span class="hljs-function">darken</span>(<span class="hljs-hexcolor">#FFFFFF</span>, <span class="hljs-number">90%</span>);
+        </code></pre>
+    
+
+    <h2>Brand Colors</h2>
+
+    <ul>
+        <li class="brand-primary"></li>
+        <li class="brand-success"></li>
+        <li class="brand-warning"></li>
+        <li class="brand-danger"></li>
+        <li class="brand-info"></li>
+    </ul>
+
+    
+        <pre class="highlight"><code class="hljs less">
+<span class="hljs-variable">@brand-primary:</span> <span class="hljs-hexcolor">#3B83C0</span>;
+<span class="hljs-variable">@brand-success:</span> <span class="hljs-hexcolor">#5BBD72</span>;
+<span class="hljs-variable">@brand-warning:</span> <span class="hljs-hexcolor">#E07B53</span>;
+<span class="hljs-variable">@brand-danger:</span>  <span class="hljs-hexcolor">#D95C5C</span>;
+<span class="hljs-variable">@brand-info:</span>    <span class="hljs-hexcolor">#00B5AD</span>;
+        </code></pre>
+    
+</div>
+    <h2 id="typography">Typography</h2>
+<p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.</p>
+<h1 id="h1-stretch-heading">h1 - Stretch Heading</h1>
+<h2 id="h2-stretch-heading">h2 - Stretch Heading</h2>
+<h3 id="h3-stretch-heading">h3 - Stretch Heading</h3>
+<h4 id="h4-stretch-heading">h4 - Stretch Heading</h4>
+<h5 id="h5-stretch-heading">h5 - Stretch Heading</h5>
+<h6 id="h6-stretch-heading">h6 - Stretch Heading</h6>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>H1 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>H2 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h3</span>&gt;</span>H3 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h4</span>&gt;</span>H4 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h5</span>&gt;</span>H5 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">h6</span>&gt;</span>H6 - Stretch Heading<span class="hljs-tag">&lt;/<span class="hljs-title">h6</span>&gt;</span>
+</code></pre>
+<p>Stretch&#39;s global default <code>font-size</code> is <strong>14px</strong>, with <code>line-height</code> of 1.4.</p>
+<h4 id="body-copy">Body copy</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<h4 id="built-with-less">Built with LESS</h4>
+<p>The typographic scale is based on two Less variables in <strong>variables.less</strong>: <code>@font-size-base</code> and <code>@line-height-base</code>. The first is the base font-size used throughout and the second is the base line-height. We use those variables and some simple math to create the margins, paddings, and line-heights of all our type and more. Customize them and Stretch adapts.</p>
+
+</div>
+
+<div id="mixins">
+    <section>
+        <h2 class="default-section-title">Mixins</h2>
+    </section>
+
+    <h2 id="box-sizing">Box Sizing</h2>
+<p>The <code>box-sizing</code> property is used to alter the default <a href="https://developer.mozilla.org/en-US/docs/CSS/Box_model">CSS Box Model</a> used to calculate widths and heights of elements. It is possible to use this property to emulate the behavior of browsers that do not correctly support the CSS box model specification.</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.box-sizing</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">box-model)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">box-sizing</span>, <span class="hljs-at_rule">@<span class="hljs-keyword">box-model);</span>
+}
+</span></code></pre>
+
+    <h2 id="opacity">Opacity</h2>
+<p>Set the opacity for all browsers and provide a <code>filter</code> fallback for IE8.</p>
+<pre class="highlight"><code class="hljs undefined">.opacity(@opacity) {
+    opacity: @opacity;
+    @opacity-ie: @opacity * 100;
+    filter: ~"alpha(opacity=@{opacity-ie})"; // IE8
+}
+</code></pre>
+
+    <h2 id="resizable">Resizable</h2>
+<p>Easily configure the resize options for any textarea, or any other element. Some options are default like <code>direction</code>.</p>
+<p>Options available for <code>direction</code> are: <code>horizontal</code>, <code>vertical</code>, <code>both</code>.</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.resizable</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">direction:</span> both, @overflow: auto) </span>{
+    <span class="hljs-tag">resize</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">direction;</span>
+    overflow: @overflow</span>;
+}
+</code></pre>
+
+    <h2 id="size">Size</h2>
+<p>Specify the dimension of any object more easily.</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.size</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height) </span>{
+    <span class="hljs-tag">width</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">width;</span>
+    height: @height</span>;
+}
+
+<span class="hljs-class">.square</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height) </span>{
+    <span class="hljs-class">.size</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height)</span>;
+}
+</code></pre>
+<p>An example is its use with avatars:</p>
+<pre class="highlight"><code class="hljs undefined">.avatar {
+    .size(80px, 85px);
+}
+
+.avatar-image {
+    .square(80px, 85px);
+}
+</code></pre>
+
+    <h2 id="transform">Transform</h2>
+<p>Rorate, scale, translate (move), or skew any object.</p>
+<h4 id="rotate">Rotate</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.rotate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">degrees)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">rotate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">degrees));</span>
+}
+</span></code></pre>
+<h4 id="scale">Scale</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.scale</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">ratio)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">scale</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">ratio));</span>
+}
+</span></code></pre>
+<h4 id="translate">Translate</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.translate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">translate</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y))</span>;
+}
+</code></pre>
+<h4 id="skew">Skew</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.skew</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">skewX</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x)</span> <span class="hljs-function">skewY</span>(@y))</span>;
+
+    <span class="hljs-tag">-webkit-backface-visibility</span>: <span class="hljs-tag">hidden</span>;
+}
+</code></pre>
+<h4 id="translate3d">Translate3D</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.translate3d</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y, @z) </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transform</span>, <span class="hljs-tag">translate3d</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">x,</span> @y, @z))</span>;
+}
+</code></pre>
+
+    <h2 id="transition">Transition</h2>
+<p>The CSS transition property is a <a href="https://developer.mozilla.org/en-US/docs/CSS/Shorthand_properties">shorthand property</a> for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property">transition-property</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration">transition-duration</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function">transition-timing-function</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay">transition-delay</a>. It enables you to define the transition between two states of an element.</p>
+<h4 id="transtitions">Transtitions</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.transition</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">transition)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transition</span>, <span class="hljs-at_rule">@<span class="hljs-keyword">transition);</span>
+}
+</span></code></pre>
+<h4 id="transition-delay">Transition Delay</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.transition-delay</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">transition-delay)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transition-delay</span>, <span class="hljs-at_rule">@<span class="hljs-keyword">transition-delay);</span>
+}
+</span></code></pre>
+<h4 id="transition-duration">Transition Duration</h4>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.transition-duration</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">transition-duration)</span> </span>{
+    <span class="hljs-class">.prefixer</span>(<span class="hljs-tag">transition-duration</span>, <span class="hljs-at_rule">@<span class="hljs-keyword">transition-duration);</span>
+}
+</span></code></pre>
+
+</div>
+
+<div id="functions">
+    <section>
+        <h2 class="default-section-title">Functions</h2>
+    </section>
+
+    <h2 id="px-to-em">px to em</h2>
+<p>This is not a function, it remains a mixin. But convert <code>px</code> to <code>em</code> :)</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.em</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">selector,</span> @amt, @default-px: <span class="hljs-number">16</span>) when (<span class="hljs-function">ispixel</span>(@amt)) </span>{
+    <span class="hljs-at_rule">@<span class="hljs-keyword">{selector}:</span> <span class="hljs-function">unit</span>((@amt / @default-px), em)</span>;
+}
+</code></pre>
+<p>Use it is so easy:</p>
+<pre class="highlight"><code class="hljs undefined">div {
+    .em(font-size, 16px); // 1em
+    .em(max-width, 18px); // 1.125em
+}
+</code></pre>
+<p>Output:</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-tag">div</span> <span class="hljs-rules">{
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">1em</span></span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">max-width</span>:<span class="hljs-value"> <span class="hljs-number">1.125em</span></span></span>;
+<span class="hljs-rule">}</span></span>
+</code></pre>
+
+</div>
+
+<div id="add-ons">
+    <section>
+        <h2 class="default-section-title">Add-Ons</h2>
+    </section>
+
+    <h2 id="border-radius">Border Radius</h2>
+<p>Today all modern browsers support the non-prefixed <code>border-radius</code> property. As such, there is no <code>.border-radius()</code> mixin, but stretch does include shortcuts for quickly rounding two corners on a particular side of an object.</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.border-top-radius</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">radius)</span> </span>{
+    <span class="hljs-tag">border-top-right-radius</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">radius;</span>
+    border-top-left-radius: @radius</span>;
+}
+
+<span class="hljs-class">.border-right-radius</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">radius)</span> </span>{
+    <span class="hljs-tag">border-bottom-right-radius</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">radius;</span>
+    border-top-right-radius: @radius</span>;
+}
+
+<span class="hljs-class">.border-bottom-radius</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">radius)</span> </span>{
+    <span class="hljs-tag">border-bottom-right-radius</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">radius;</span>
+    border-bottom-left-radius: @radius</span>;
+}
+
+<span class="hljs-class">.border-left-radius</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">radius)</span> </span>{
+    <span class="hljs-tag">border-bottom-left-radius</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">radius;</span>
+    border-top-left-radius: @radius</span>;
+}
+</code></pre>
+
+    <h2 id="clearfix">Clearfix</h2>
+<p>Forget adding <code>class=&quot;clearfix&quot;</code> to any element and instead add the <code>.clearfix()</code> mixin where appropriate. Also use <a href="http://nicolasgallagher.com/micro-clearfix-hack/">this clearfix</a> from <a href="http://twitter.com/necolas">Nicolas Gallager</a>.</p>
+<pre class="highlight"><code class="hljs undefined">.clearfix() {
+    &amp;:before,
+    &amp;:after {
+        content: " ";
+        display: table;
+    }
+
+    &amp;:after {
+        clear: both;
+    }
+}
+</code></pre>
+
+</div>
+
+<div id="made-with-love" style="text-align: center">
+    <made-with-love name="Randson Oliveira" url="http://randsonjs.com"></made-with-love>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="http://cdn.alloyui.com/3.0.0pr2/aui/aui-min.js"></script>
+    <script>
+        YUI().use('aui-scrollspy', function(Y) {
+            new Y.Scrollspy({
+                activeClass: 'active',
+                target: '#menu'
+            });
+        });
+    </script>
+</body>
+</html>

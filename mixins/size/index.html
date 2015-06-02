@@ -1,0 +1,20 @@
+<h2 id="size">Size</h2>
+<p>Specify the dimension of any object more easily.</p>
+<pre class="highlight"><code class="hljs css"><span class="hljs-class">.size</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height) </span>{
+    <span class="hljs-tag">width</span>: <span class="hljs-at_rule">@<span class="hljs-keyword">width;</span>
+    height: @height</span>;
+}
+
+<span class="hljs-class">.square</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height) </span>{
+    <span class="hljs-class">.size</span>(<span class="hljs-at_rule">@<span class="hljs-keyword">width,</span> @height)</span>;
+}
+</code></pre>
+<p>An example is its use with avatars:</p>
+<pre class="highlight"><code class="hljs undefined">.avatar {
+    .size(80px, 85px);
+}
+
+.avatar-image {
+    .square(80px, 85px);
+}
+</code></pre>

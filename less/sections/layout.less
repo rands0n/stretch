@@ -1,0 +1,43 @@
+#layout {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+    &.active {
+
+        #menu {
+            left: 185px;
+            width: 185px;
+        }
+
+        .menu-link {
+            left: 185px;
+        }
+    }
+}
+
+@media (min-width: 48em) {
+    #layout {
+        padding-left: 185px;
+        left: 0;
+
+        &.active {
+
+            .menu-link {
+                left: 185px;
+            }
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    #layout {
+
+        &.active {
+            position: relative;
+            left: 185px;
+        }
+    }
+}

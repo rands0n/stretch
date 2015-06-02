@@ -1,0 +1,58 @@
+@import "../vendor/stretch/less/stretch.less";
+@import "variables.less";
+
+// Base
+@import "base/base.less";
+
+body {
+    color: #777777;
+
+    font-family: @font-family-base;
+    line-height: @line-height-base;
+    font-weight: 300;
+
+    // Base
+    @import "vendor/highlightjs.less";
+
+    .code-install {
+        text-align: center;
+        width: 255px;
+        margin: 45px auto 10px;
+        display: block;
+    }
+
+    .gh-btns {
+        width: 285px;
+        margin: 0px auto;
+    }
+
+    .download-button {
+        text-align: center;
+
+        a {
+            background-color: @background-color;
+            font-family: inherit;
+            font-size: 100%;
+            padding: .8em 1.8em;
+            border: 0 rgba(0,0,0,0);
+            text-decoration: none;
+            border-radius: 2px;
+            color: #FFF;
+            text-transform: uppercase;
+
+            .btn-download-icon {
+                vertical-align: bottom;
+                padding: 2px 14px;
+            }
+        }
+    }
+
+    // Variables
+    @import "sections/variables/color.less";
+
+    @import "sections/header.less";
+    @import "sections/menu.less";
+    @import "sections/menu-link.less";
+    @import "sections/layout.less";
+    @import "sections/content.less";
+}
