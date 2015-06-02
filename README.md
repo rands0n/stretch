@@ -1,6 +1,6 @@
-# [Stretch](https://randsonjs.github.io/stretch)
+# [stretch](https://randsonjs.github.io/stretch)
 
-A collection of LESS variables, mixins and functions
+A collection of LESS variables, mixins, functions and helpers
 
 ## Getting Started
 
