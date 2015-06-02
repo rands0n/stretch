@@ -5,7 +5,7 @@
   "authors": [
     "Randson Oliveira <randsonjs@gmail.com>"
   ],
-  "description": "A collection of LESS variables, mixins and functions for writing better CSS",
+  "description": "A collection of LESS variables, mixins, functions and helpers for writing better CSS",
   "main": "src/documents/index.html",
   "keywords": [
     "stretch",
