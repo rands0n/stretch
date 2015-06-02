@@ -3,6 +3,13 @@ module.exports = {
     //
 
     templateData: {
+        site: {
+            title: "stretch",
+            description: "A collection of LESS variables, mixins, functions and helpers",
+            url: "http://randsonjs.github.io/stretch",
+            image: "http://randsonjs.github.io/stretch/images/stretch.svg"
+        },
+
         /* Helpers
         ===================================================================== */
 
