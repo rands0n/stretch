@@ -29,7 +29,7 @@ $ git checkout site
 4. And finally, install all dependencies
 
 ```sh
-$ [sudo] npm install
+$ [sudo] npm install & bower install 
 ```
 
 Now you're good to go!
