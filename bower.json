@@ -5,7 +5,7 @@
   "authors": [
     "Randson Oliveira <randsonjs@gmail.com>"
   ],
-  "description": "A collection of LESS variables, mixins and functions",
+  "description": "A collection of LESS variables, mixins, functions and helpers",
   "main": "src/less/stretch.less",
   "keywords": [
     "stretch",
@@ -13,7 +13,8 @@
     "less",
     "mixins",
     "variables",
-    "functions"
+    "functions",
+    "helpers"
   ],
   "license": "MIT",
   "ignore": [
