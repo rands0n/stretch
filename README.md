@@ -10,6 +10,10 @@ Three quick start options are available:
 * Clone the repo: `git@github.com:randsonjs/stretch.git`
 * Install with [Bower](http://bower.io): `bower install stretch`
 
+## Dependencies
+
+* [Normalize CSS](http://necolas.github.io/normalize.css/) v3.0.3 by Nicolas Gallagher
+
 ## Setup
 
 Use [bower](http://bower.io) to fetch all dependencies
@@ -18,8 +22,19 @@ Use [bower](http://bower.io) to fetch all dependencies
 $ bower install
 ```
 
+Now you're ready to go!
 
 ## Usage
+
+Use [Grunt](http://gruntjs.com) or [Gulp](http://gulpjs.com) to compile [LESS](http://lesscss.org).
+
+Import our main stretch file:
+
+```css
+@import "bower_components/stretch/less/stretch.less";
+```
+
+Now you're ready to go!
 
 ## History
 
